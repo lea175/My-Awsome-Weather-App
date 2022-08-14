@@ -1,0 +1,49 @@
+.container {
+  font-family: "Roboto", sans-serif;
+}
+.weather-app {
+  max-width: 640px;
+  border: 2px solid #d9d9d9;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.city-name {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  padding-left: 10px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.day,
+.date,
+.wind,
+.humidity {
+  padding-left: 10px;
+}
+
+
+img {
+  width: 150px;
+  position: relative;
+  top: -85px;
+  left: -75px;
+}
+.temperature {
+  font-size: 90px;
+  position: relative;
+  left: -90px;
+  top: -6px;
+}
+.units {
+    font-size: 22px;
+      position: relative;
+      right: -167px;
+      top: -157px;
+}
+.days {
+  text-align: right;
+}
